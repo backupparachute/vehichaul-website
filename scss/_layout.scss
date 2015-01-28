@@ -12,6 +12,11 @@
   padding-bottom: 0;
 }
 
+.content-extra {
+  padding-bottom: $gutter*3;
+  padding-top: $gutter*3;
+}
+
 .content-extra-top {
   padding-top: $gutter*3;
 }

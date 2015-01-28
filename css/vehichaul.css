@@ -20,6 +20,10 @@ h6 {
 .content-bottom {
   padding-bottom: 0; }
 
+.content-extra {
+  padding-bottom: 5.625rem;
+  padding-top: 5.625rem; }
+
 .content-extra-top {
   padding-top: 5.625rem; }
 
