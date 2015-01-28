@@ -30,6 +30,12 @@ h6 {
 .secondary-bkg {
   background: #f2f2f2; }
 
+.img-bkg {
+  background: url("../img/country-road.jpg") no-repeat center bottom;
+  color: #fff;
+  padding: 5.9375rem 0.9375rem 7.5rem 0.9375rem;
+  max-height: 28.125rem; }
+
 header {
   background: url("../img/header-bkg.jpg") no-repeat center 0;
   color: #fff;

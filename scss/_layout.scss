@@ -24,3 +24,10 @@
 .secondary-bkg {
   background: $gray-extra-light;
 }
+
+.img-bkg {
+  background: url('../img/country-road.jpg') no-repeat center bottom;
+  color: $white;
+  padding: rem-calc(95) $gutter/2 rem-calc(120) $gutter/2;
+  max-height: rem-calc(450);
+}
