@@ -10,18 +10,4 @@
 @import "layout.scss";
 @import "header.scss";
 @import "footer.scss";
-
-.download-btn {
-  display: block;
-  float: left;
-  height: rem-calc(46);
-
-  &:first-child {
-    margin-right: $gutter/2;
-  }
-
-  img {
-    height: 100%;
-    width: auto;
-  }
-}
+@import "download-btn.scss";

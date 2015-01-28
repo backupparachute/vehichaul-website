@@ -25,10 +25,13 @@ h6 {
   margin: 0 auto;
   padding: 1.875rem 0.9375rem; }
 
+.secondary-bkg {
+  background: #f2f2f2; }
+
 header {
   background: url("../img/header-bkg.jpg") no-repeat center 0;
   color: #fff;
-  height: 37.5rem;
+  height: 42.5rem;
   padding-top: 0.9375rem;
   width: 100%; }
   header .feature-subheader {
@@ -55,11 +58,10 @@ footer {
   font-size: 0.875rem; }
 
 .download-btn {
-  display: block;
-  float: left;
+  display: inline-block;
   height: 2.875rem; }
-  .download-btn:first-child {
-    margin-right: 0.9375rem; }
+  .download-btn + .download-btn {
+    margin-left: 0.9375rem; }
   .download-btn img {
     height: 100%;
     width: auto; }
