@@ -25,16 +25,16 @@ h6 {
   margin: 0 auto;
   padding: 1.875rem 0.9375rem; }
 
-.header-main {
+header {
   background: url("../img/header-bkg.jpg") no-repeat center 0;
   color: #fff;
   height: 37.5rem;
   padding-top: 0.9375rem;
   width: 100%; }
-  .header-main .feature-subheader {
+  header .feature-subheader {
     margin-bottom: 1.875rem; }
 
-.header-logo {
+.logo {
   height: 3.75rem;
   margin-bottom: 7.5rem;
   margin-left: -5px;

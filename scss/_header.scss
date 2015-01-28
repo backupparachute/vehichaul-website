@@ -2,7 +2,7 @@
 //  Header.scss
 // ==========================================
 
-.header-main {
+header {
   background: url('../img/header-bkg.jpg') no-repeat center 0;
   color: $white;
   height: rem-calc(600);
@@ -15,7 +15,7 @@
 
 }
 
-.header-logo {
+.logo {
   height: rem-calc(60);
   margin-bottom: rem-calc(120);
   margin-left: -5px;
