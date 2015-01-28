@@ -8,6 +8,14 @@
   padding: $gutter $gutter/2;
 }
 
+.content-bottom {
+  padding-bottom: 0;
+}
+
+.content-extra-top {
+  padding-top: $gutter*3;
+}
+
 .secondary-bkg {
   background: $gray-extra-light;
 }

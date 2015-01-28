@@ -1,0 +1,19 @@
+// ==========================================
+//  Feature-Header.scss
+// ==========================================
+
+
+.feature-header {
+  font-size: rem-calc(28);
+
+  &.lower {
+    margin-top: 70%;
+  }
+}
+
+.feature-subheader {
+  font-family: $sans-serif-font-family;
+  font-size: rem-calc(18);
+  font-weight: $font-weight-light;
+  line-height: 2;
+}

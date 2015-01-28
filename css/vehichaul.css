@@ -1,5 +1,6 @@
 body {
-  font-family: "Source Sans Pro", sans-serif; }
+  font-family: "Source Sans Pro", sans-serif;
+  color: #4a4b4c; }
 
 h1,
 h2,
@@ -11,19 +12,16 @@ h6 {
   font-weight: 400;
   color: currentColor; }
 
-.feature-subheader {
-  font-family: "Source Sans Pro", sans-serif;
-  font-size: 1.125rem;
-  font-weight: 300;
-  line-height: 2; }
-
-.feature-header {
-  font-size: 1.75rem; }
-
 .content {
   max-width: 64rem;
   margin: 0 auto;
   padding: 1.875rem 0.9375rem; }
+
+.content-bottom {
+  padding-bottom: 0; }
+
+.content-extra-top {
+  padding-top: 5.625rem; }
 
 .secondary-bkg {
   background: #f2f2f2; }
@@ -65,5 +63,16 @@ footer {
   .download-btn img {
     height: 100%;
     width: auto; }
+
+.feature-header {
+  font-size: 1.75rem; }
+  .feature-header.lower {
+    margin-top: 70%; }
+
+.feature-subheader {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 1.125rem;
+  font-weight: 300;
+  line-height: 2; }
 
 /*# sourceMappingURL=vehichaul.css.map */
