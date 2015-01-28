@@ -31,3 +31,10 @@
   padding: rem-calc(95) $gutter/2 rem-calc(120) $gutter/2;
   max-height: rem-calc(450);
 }
+
+.vertical-middle {
+  display: inline-block;
+  padding-left: $gutter/2;
+  padding-right: $gutter/2;
+  vertical-align: middle;
+}

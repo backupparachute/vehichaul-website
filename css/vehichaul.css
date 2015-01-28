@@ -36,6 +36,12 @@ h6 {
   padding: 5.9375rem 0.9375rem 7.5rem 0.9375rem;
   max-height: 28.125rem; }
 
+.vertical-middle {
+  display: inline-block;
+  padding-left: 0.9375rem;
+  padding-right: 0.9375rem;
+  vertical-align: middle; }
+
 header {
   background: url("../img/header-bkg.jpg") no-repeat center 0;
   color: #fff;
