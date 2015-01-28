@@ -68,6 +68,8 @@ footer {
   font-size: 1.75rem; }
   .feature-header.lower {
     margin-top: 70%; }
+  .feature-header.middle {
+    margin-top: 45%; }
 
 .feature-subheader {
   font-family: "Source Sans Pro", sans-serif;
