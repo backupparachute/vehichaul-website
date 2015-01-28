@@ -46,6 +46,14 @@ header {
   margin: 0 auto;
   display: block; }
 
+footer {
+  background: #031723;
+  color: #fff;
+  width: 100%; }
+
+.copyright {
+  font-size: 0.875rem; }
+
 .download-btn {
   display: block;
   float: left;
