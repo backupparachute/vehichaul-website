@@ -1,0 +1,30 @@
+// ==========================================
+//  Header.scss
+// ==========================================
+
+.header-main {
+  background: url('../img/header-bkg.jpg') no-repeat center 0;
+  color: $white;
+  height: rem-calc(600);
+  padding-top: $gutter/2;
+  width: 100%;
+
+  .feature-subheader {
+    margin-bottom: $gutter;
+  }
+
+}
+
+.header-logo {
+  height: rem-calc(60);
+  margin-bottom: rem-calc(120);
+  margin-left: -5px;
+  width: rem-calc(255);
+}
+
+.header-hero {
+  bottom: rem-calc(-43);
+  position: relative;
+  margin: 0 auto;
+  display: block;
+}

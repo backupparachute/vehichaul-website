@@ -1,0 +1,9 @@
+// ==========================================
+//  Layout.scss
+// ==========================================
+
+.content {
+  max-width: rem-calc(1024);
+  margin: 0 auto;
+  padding: $gutter $gutter/2;
+}

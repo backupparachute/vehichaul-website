@@ -1,0 +1,30 @@
+// ==========================================
+//  Base.scss
+// ==========================================
+
+body {
+  font-family: $sans-serif-font-family;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $serif-font-family;
+  font-weight: $font-weight-normal;
+  color: currentColor;
+}
+
+.feature-subheader {
+  font-family: $sans-serif-font-family;
+  font-size: rem-calc(18);
+  font-weight: $font-weight-light;
+  line-height: 2;
+}
+
+.feature-header {
+  font-size: rem-calc(28);
+}
