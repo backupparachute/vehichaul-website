@@ -2,44 +2,24 @@
 //  Layout.scss
 // ==========================================
 
-.content {
-  max-width: rem-calc(1024);
-  margin: 0 auto;
-  padding: $gutter $gutter/2;
-}
-
-.content-bottom {
-  padding-bottom: 0;
-}
-
-.content-extra {
-  padding-bottom: $gutter*3;
-  padding-top: $gutter*3;
-}
-
-.content-extra-small {
-  padding-bottom: $gutter*2;
-  padding-top: $gutter*2;
-}
-
-.content-extra-top {
-  padding-top: $gutter*3;
-}
-
 .secondary-bkg {
   background: $gray-extra-light;
 }
 
 .img-bkg {
   background: url('../img/country-road.jpg') no-repeat center bottom;
-  color: $white;
-  padding: rem-calc(95) $gutter/2 rem-calc(120) $gutter/2;
+  padding: rem-calc(95) $gutter-split rem-calc(120) $gutter-split;
   max-height: rem-calc(450);
+
+  .feature-header,
+  .feature-subheader {
+    color: $white;
+  }
 }
 
 .vertical-middle {
   display: inline-block;
-  padding-left: $gutter/2;
-  padding-right: $gutter/2;
+  padding-left: $gutter-split;
+  padding-right: $gutter-split;
   vertical-align: middle;
 }

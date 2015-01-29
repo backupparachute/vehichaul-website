@@ -10,4 +10,12 @@ footer {
 
 .copyright {
   font-size: rem-calc(14);
+  margin: 0 auto;
+  padding: $column-gutter 0;
+  width: 100%;
+  max-width: rem-calc(1024);
+
+  @media #{$medium-up} {
+    padding: $column-gutter $gutter-split;
+  }
 }

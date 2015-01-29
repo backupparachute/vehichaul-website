@@ -7,7 +7,7 @@
   height: rem-calc(46);
 
   & + .download-btn {
-    margin-left: $gutter/2;
+    margin-left: $gutter-split;
   }
 
   img {

@@ -3,28 +3,70 @@
 // ==========================================
 
 header {
-  background: url('../img/header-bkg.jpg') no-repeat center 0;
-  color: $white;
-  height: rem-calc(680);
-  padding-top: $gutter/2;
+  background: url('../img/header-bkg.jpg') no-repeat center -100px;
+  color: $blue;
   width: 100%;
 
+  .feature {
+    padding-top: $column-gutter;
+  }
+
   .feature-subheader {
-    margin-bottom: $gutter;
+    margin-bottom: $column-gutter;
+  }
+
+  @media #{$medium-up} {
+    height: rem-calc(680);
+    background-position: center 0;
+    
+    .feature-header,
+    .feature-subheader {
+      color: $white;
+    }
+  }
+
+
+  .download-btn {
+    & + .download-btn {
+      margin-left: rem-calc(5);
+      
+      @media #{$medium-up} {
+        margin-left: $gutter-split;
+      } 
+    }
   }
 
 }
 
 .logo {
-  height: rem-calc(60);
-  margin-bottom: rem-calc(120);
-  margin-left: -5px;
-  width: rem-calc(255);
+  display: block;
+  margin: 0 auto rem-calc(60);
+  max-width: rem-calc(400);
+  width: 100%;
+
+  @media #{$medium-up} {
+    height: rem-calc(60);
+    margin-bottom: rem-calc(120);
+    margin-left: -5px;
+    width: rem-calc(255);
+  } 
+}
+
+.header-hero-wrapper {
+  @media #{$medium-up}{
+    margin-top: rem-calc(-120);
+  }
 }
 
 .header-hero {
-  bottom: rem-calc(-43);
   position: relative;
   margin: 0 auto;
   display: block;
+  width: 100%;
+  max-width: rem-calc(300);
+
+  @media #{$medium-up} {
+    width: auto;
+    max-width: 100%;
+  }
 }

@@ -2,13 +2,17 @@
 //  Vehichaul.scss
 // ==========================================
 
+@import "../libs/foundation-5.5.0/scss/foundation/functions";
+@import "settings";
 
-@import "functions.scss";
+@import "../libs/foundation-5.5.0/scss/normalize";
 
-@import "variables.scss";
-@import "base.scss";
+@import "../libs/foundation-5.5.0/scss/foundation/components/grid";
+@import "../libs/foundation-5.5.0/scss/foundation/components/type";
+
+
 @import "layout.scss";
 @import "header.scss";
 @import "footer.scss";
 @import "download-btn.scss";
-@import "feature-header.scss";
+@import "features.scss";
