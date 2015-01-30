@@ -1950,17 +1950,28 @@ header {
 footer {
   background: #031723;
   color: #fff;
+  padding: 1.875rem 0;
   width: 100%; }
+  footer a {
+    color: #d9b347; }
+    footer a:hover, footer a:focus {
+      color: #f9d672; }
+    footer a:active {
+      color: #96720d; }
+  footer .twitter-icon {
+    margin-right: 0.3125rem;
+    width: 1.875rem; }
 
 .copyright {
   font-size: 0.875rem;
-  margin: 0 auto;
-  padding: 1.875rem 0;
+  margin: 0 auto 0.9375rem;
   width: 100%;
   max-width: 64rem; }
   @media only screen and (min-width: 48em) {
     .copyright {
-      padding: 1.875rem 0.9375rem; } }
+      margin-bottom: 0;
+      padding-left: 0.9375rem;
+      padding-right: 0.9375rem; } }
 
 .download-btn {
   display: inline-block;
