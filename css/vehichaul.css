@@ -1901,7 +1901,7 @@ header {
     padding-top: 1.875rem; }
   header .feature-subheader {
     margin-bottom: 1.875rem; }
-  @media only screen and (min-width: 48em) {
+  @media only screen and (min-width: 64.063em) {
     header {
       height: 42.5rem;
       background-position: center 0; }
@@ -1910,7 +1910,7 @@ header {
         color: #fff; } }
   header .download-btn + .download-btn {
     margin-left: 0.3125rem; }
-    @media only screen and (min-width: 48em) {
+    @media only screen and (min-width: 64.063em) {
       header .download-btn + .download-btn {
         margin-left: 0.9375rem; } }
 
@@ -1919,14 +1919,14 @@ header {
   margin: 0 auto 3.75rem;
   max-width: 25rem;
   width: 100%; }
-  @media only screen and (min-width: 48em) {
+  @media only screen and (min-width: 64.063em) {
     .logo {
       height: 3.75rem;
       margin-bottom: 7.5rem;
       margin-left: -5px;
       width: 15.9375rem; } }
 
-@media only screen and (min-width: 48em) {
+@media only screen and (min-width: 64.063em) {
   .header-hero-wrapper {
     margin-top: -7.5rem; } }
 
@@ -1936,7 +1936,7 @@ header {
   display: block;
   width: 100%;
   max-width: 18.75rem; }
-  @media only screen and (min-width: 48em) {
+  @media only screen and (min-width: 64.063em) {
     .header-hero {
       width: auto;
       max-width: 100%; } }
@@ -1961,7 +1961,7 @@ footer {
   margin: 0 auto 0.9375rem;
   width: 100%;
   max-width: 64rem; }
-  @media only screen and (min-width: 48em) {
+  @media only screen and (min-width: 64.063em) {
     .copyright {
       margin-bottom: 0;
       padding-left: 0.9375rem;
@@ -1992,7 +1992,7 @@ footer {
 .feature-subheader {
   margin-left: auto;
   margin-right: auto; }
-  @media only screen and (min-width: 48em) {
+  @media only screen and (min-width: 64.063em) {
     .feature-header,
     .feature-subheader {
       max-width: none; } }
@@ -2004,7 +2004,7 @@ footer {
   max-width: 64rem;
   margin: 0 auto;
   padding: 5.625rem 0 1.875rem; }
-  @media only screen and (min-width: 48em) {
+  @media only screen and (min-width: 64.063em) {
     .feature {
       padding: 1.875rem 0.9375rem; } }
 
@@ -2025,11 +2025,11 @@ footer {
 .feature-side-by-side {
   margin-left: -2.5rem; }
 
-@media only screen and (min-width: 48em) {
+@media only screen and (min-width: 64.063em) {
   .feature-lower-copy .feature-header {
-    margin-top: 70%; }
+    margin-top: 55%; }
 
   .feature-middle-copy .feature-header {
-    margin-top: 45%; } }
+    margin-top: 30%; } }
 
 /*# sourceMappingURL=vehichaul.css.map */

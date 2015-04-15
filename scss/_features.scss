@@ -21,7 +21,7 @@
   margin-left: auto;
   margin-right: auto;
 
-  @media #{$medium-up}{
+  @media #{$large-up}{
     max-width: none;
   }
 }
@@ -35,7 +35,7 @@
   margin: 0 auto;
   padding: $gutter-extra-large 0 $column-gutter;
 
-  @media #{$medium-up}{
+  @media #{$large-up}{
     padding: $column-gutter $gutter-split;
   }
 }
@@ -64,18 +64,18 @@
 
 
 
-// Medium & Up
-@media #{$medium-up} {
+// Large & Up
+@media #{$large-up} {
 
   .feature-lower-copy {
     .feature-header {
-      margin-top: 70%;
+      margin-top: 55%;
     }
   }
 
   .feature-middle-copy {
     .feature-header {
-      margin-top: 45%;
+      margin-top: 30%;
     }
   }
 }

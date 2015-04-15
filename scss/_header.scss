@@ -15,7 +15,7 @@ header {
     margin-bottom: $column-gutter;
   }
 
-  @media #{$medium-up} {
+  @media #{$large-up} {
     height: rem-calc(680);
     background-position: center 0;
     
@@ -30,7 +30,7 @@ header {
     & + .download-btn {
       margin-left: rem-calc(5);
       
-      @media #{$medium-up} {
+      @media #{$large-up} {
         margin-left: $gutter-split;
       } 
     }
@@ -44,7 +44,7 @@ header {
   max-width: rem-calc(400);
   width: 100%;
 
-  @media #{$medium-up} {
+  @media #{$large-up} {
     height: rem-calc(60);
     margin-bottom: rem-calc(120);
     margin-left: -5px;
@@ -53,7 +53,7 @@ header {
 }
 
 .header-hero-wrapper {
-  @media #{$medium-up}{
+  @media #{$large-up}{
     margin-top: rem-calc(-120);
   }
 }
@@ -65,7 +65,7 @@ header {
   width: 100%;
   max-width: rem-calc(300);
 
-  @media #{$medium-up} {
+  @media #{$large-up} {
     width: auto;
     max-width: 100%;
   }
