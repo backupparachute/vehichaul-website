@@ -54,7 +54,8 @@ $include-print-styles: false;
 
 // Media Query Ranges
 $small-range: (0, 47.9375em); // 0 - 767
-$medium-range: (48em, 64em); // 768 - 1024
+$medium-range: (48em, 63.9375em); // 768 - 1023
+$large-range: (64em, 90em); // 1024 - 1440
 
 
 // We use these to control header font styles

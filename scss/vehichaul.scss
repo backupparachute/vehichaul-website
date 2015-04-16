@@ -11,6 +11,13 @@
 @import "../libs/foundation-5.5.0/scss/foundation/components/type";
 
 
+@mixin subheader-copy {
+  font-family: $font-family-sans-serif;
+  font-size: rem-calc(18);
+  font-weight: $font-weight-light;
+  line-height: 2;
+}
+
 @import "layout.scss";
 @import "header.scss";
 @import "footer.scss";
