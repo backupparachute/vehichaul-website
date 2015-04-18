@@ -23,6 +23,12 @@
   }
 }
 
+.track-header {
+  @media #{$large-up}{
+    padding-top: 10%;
+  }
+}
+
 .feature-hero {
   text-align: center;
 }
