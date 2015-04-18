@@ -9,6 +9,8 @@
 
 @import "../libs/foundation-5.5.0/scss/foundation/components/grid";
 @import "../libs/foundation-5.5.0/scss/foundation/components/type";
+@import "../libs/foundation-5.5.0/scss/foundation/components/forms";
+@import "../libs/foundation-5.5.0/scss/foundation/components/buttons";
 
 
 @mixin subheader-copy {
@@ -23,3 +25,4 @@
 @import "footer.scss";
 @import "download-btn.scss";
 @import "features.scss";
+@import "contact.scss";
