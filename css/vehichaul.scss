@@ -36,9 +36,8 @@
 
 .button.ghost {
   @include button($bg: $blue, $bg-hover:$yellow-tint, $border-color:$yellow);
-  width: 100%;
   display: block;
-  color: $yellow;
+  // color: $yellow;
 
   &:disabled {
     background: $gray-light;
