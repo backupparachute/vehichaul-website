@@ -30,3 +30,7 @@
 @import "download-btn";
 @import "features";
 @import "contact";
+
+
+.button.ghost { background: $transparent !important; border:1px solid $primary-color; color: $primary-color; }
+.button.ghost:hover { border:1px solid scale-color($primary-color, $lightness: $button-function-factor); color:scale-color($primary-color, $lightness: $button-function-factor);  }
