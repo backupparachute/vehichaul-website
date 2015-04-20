@@ -32,5 +32,16 @@
 @import "contact";
 
 
-.button.ghost { background: $transparent !important; border:1px solid $primary-color; color: $primary-color; }
-.button.ghost:hover { border:1px solid scale-color($primary-color, $lightness: $button-function-factor); color:scale-color($primary-color, $lightness: $button-function-factor);  }
+// .button.ghost { background: $transparent !important; border:1px solid $blue; color: $blue; }
+
+.button.ghost {
+  @include button($bg: $transparent, $bg-hover:$blue-tint, $border-color:$blue);
+  width: 100%;
+  display: block;
+
+  &:disabled {
+    background: $gray-light;
+  }
+}
+
+// .button.ghost:hover { border:1px solid scale-color($primary-color, $lightness: $button-function-factor); color:scale-color($primary-color, $lightness: $button-function-factor);  }
