@@ -35,9 +35,10 @@
 // .button.ghost { background: $transparent !important; border:1px solid $blue; color: $blue; }
 
 .button.ghost {
-  @include button($bg: $blue, $bg-hover:$yellow-tint, $border-color:$yellow);
+  @include button($bg: $transparent, $bg-hover:$yellow-tint, $border-color:$yellow);
   display: block;
-  // color: $yellow;
+  color: $yellow;
+  border: 1px solid $yellow;
 
   &:disabled {
     background: $gray-light;
