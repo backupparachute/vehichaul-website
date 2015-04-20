@@ -1,0 +1,84 @@
+// ==========================================
+//  Features.scss
+// ==========================================
+
+.feature-header {
+  font-size: rem-calc(28);
+  max-width: rem-calc(550);
+}
+
+.feature-subheader {
+  @include subheader-copy;
+  margin-bottom: $column-gutter;
+  max-width: rem-calc(550);
+}
+
+.feature-header,
+.feature-subheader {
+  margin-left: auto;
+  margin-right: auto;
+
+  @media #{$large-up}{
+    max-width: none;
+  }
+}
+
+.track-header {
+  @media #{$large-up}{
+    padding-top: 10%;
+  }
+}
+
+.feature-hero {
+  text-align: center;
+}
+
+.feature {
+  max-width: rem-calc(1024);
+  margin: 0 auto;
+  padding: $gutter-extra-large 0 $column-gutter;
+
+  @media #{$large-up}{
+    padding: $column-gutter $gutter-split;
+  }
+}
+
+.feature-bottom-hero {
+  padding-bottom: 0;
+}
+
+.feature-extra {
+  padding-bottom: $gutter-extra-large;
+  padding-top: $gutter-extra-large;
+}
+
+.feature-extra-small {
+  padding-bottom: $gutter-large;
+  padding-top: $gutter-large;
+}
+
+.feature-extra-top {
+  padding-top: $gutter-extra-large
+}
+
+.feature-side-by-side {
+  margin-left: rem-calc(-40);
+}
+
+
+
+// Large & Up
+@media #{$large-up} {
+
+  .feature-lower-copy {
+    .feature-header {
+      margin-top: 55%;
+    }
+  }
+
+  .feature-middle-copy {
+    .feature-header {
+      margin-top: 30%;
+    }
+  }
+}

@@ -1,0 +1,93 @@
+// ==========================================
+//  Header.scss
+// ==========================================
+
+header {
+  background: url('../img/header-bkg.jpg') no-repeat center -100px;
+  color: $blue;
+  width: 100%;
+
+  .feature {
+    padding-top: $column-gutter;
+  }
+
+  .feature-subheader {
+    margin-bottom: $column-gutter;
+  }
+
+  @media #{$large-up} {
+    background-position: center 0;
+    padding-bottom: $column-gutter*2;
+  }
+
+
+  .download-btn {
+    & + .download-btn {
+      margin-left: rem-calc(5);
+      
+      @media #{$large-up} {
+        margin-left: $gutter-split;
+      } 
+    }
+  }
+
+}
+
+.logo {
+  display: block;
+  margin: 0 auto rem-calc(60);
+  max-width: rem-calc(400);
+  width: 100%;
+
+  @media #{$large-up} {
+    height: rem-calc(60);
+    margin-bottom: 0;
+    margin-left: -5px;
+    width: rem-calc(255);
+  } 
+}
+
+
+.hero-header {
+  font-size: rem-calc(48);
+
+  @media #{$large-up} {
+    margin-top: rem-calc(-30);
+  }
+}
+
+.hero-subheader {
+  @include subheader-copy;
+  font-size: rem-calc(24);
+
+  .split {
+    display: block;
+
+    @media #{$large-up} {
+      display: inline;
+    }
+  }
+}
+
+.header-hero-img {
+  position: relative;
+  margin: -20px auto 0;
+  display: block;
+  width: 100%;
+  max-width: rem-calc(300);
+
+  @media #{$large-up} {
+    width: auto;
+    max-width: 100%;
+  }
+}
+
+.hero-copy {
+  @include subheader-copy;
+  margin: 0 auto $column-gutter;
+  max-width: rem-calc(550);
+
+  @media #{$large-up} {
+    max-width: rem-calc(800);
+  }
+}

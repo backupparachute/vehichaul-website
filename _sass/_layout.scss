@@ -1,0 +1,18 @@
+// ==========================================
+//  Layout.scss
+// ==========================================
+
+.secondary-bkg {
+  background: $gray-extra-light;
+}
+
+.img-bkg {
+  background: url('../img/country-road.jpg') no-repeat center bottom;
+  padding: rem-calc(95) $gutter-split rem-calc(120) $gutter-split;
+  max-height: rem-calc(450);
+
+  .feature-header,
+  .feature-subheader {
+    color: $white;
+  }
+}
