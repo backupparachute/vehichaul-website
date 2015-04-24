@@ -24,10 +24,10 @@ header {
   .download-btn {
     & + .download-btn {
       margin-left: rem-calc(5);
-      
+
       @media #{$large-up} {
         margin-left: $gutter-split;
-      } 
+      }
     }
   }
 
@@ -44,9 +44,17 @@ header {
     margin-bottom: 0;
     margin-left: -5px;
     width: rem-calc(255);
-  } 
+  }
 }
 
+.hero-header-standard {
+  font-size: rem-calc(48);
+  color: $white;
+
+  @media #{$large-up} {
+    margin-top: rem-calc(-30);
+  }
+}
 
 .hero-header {
   font-size: rem-calc(48);
