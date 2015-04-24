@@ -49,10 +49,10 @@ header {
 
 .hero-header-standard {
   font-size: rem-calc(48);
-  color: $white;
+  color: $yellow;
 
   @media #{$large-up} {
-    // margin-top: rem-calc(-30);
+    margin-top: rem-calc(30);
   }
 }
 
