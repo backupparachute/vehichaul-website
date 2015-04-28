@@ -2,6 +2,9 @@
 //  Header.scss
 // ==========================================
 
+$logo-height-large-screen: rem-calc(60);
+
+
 .site-header {
   background: url('../img/header-bkg.jpg') no-repeat center -100px;
   color: $blue;
@@ -15,9 +18,11 @@
     margin-bottom: $column-gutter;
   }
 
-  @media #{$large-up} {
-    background-position: center 0;
-    padding-bottom: $column-gutter*2;
+  &.hero {
+    @media #{$large-up} {
+      background-position: center 0;
+      padding-bottom: $column-gutter*2;
+    }
   }
 
 
@@ -35,15 +40,54 @@
 
 .logo {
   display: block;
-  margin: 0 auto rem-calc(60);
+  margin: 0 auto rem-calc(10);
   max-width: rem-calc(400);
   width: 100%;
 
   @media #{$large-up} {
-    height: rem-calc(60);
+    height: $logo-height-large-screen;
     margin-bottom: 0;
     margin-left: -5px;
     width: rem-calc(255);
+  }
+}
+
+.site-nav {
+  margin-bottom: $gutter-large;
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;    
+  }
+
+  li {
+    display: inline-block;
+    margin: 0 $gutter-split;
+  }
+
+  a {
+    color: $white;
+    font-size: $h5-font-size;
+    letter-spacing: 0.1em;
+    padding: rem-calc(3) rem-calc(7);
+    text-transform: uppercase;
+
+    &:hover,
+    &.is-active-page {
+      background-color: $white;
+      color: $blue;
+    }
+
+    &:active {
+      background-color: $gray-extra-light;
+      color: $blue-shade;
+    }
+  }
+
+  @media #{$large-up} {
+    margin-bottom: 0;
+    margin-top: rem-calc(15);
   }
 }
 

@@ -15,8 +15,12 @@
     background-color: $gray-extra-light;
   }
 
-  & > p:last-of-type {
-    margin-bottom: 0;
+  & > p {
+    color: $gray-light;
+
+    &:last-of-type {
+      margin-bottom: 0;
+    }
   }
 }
 
