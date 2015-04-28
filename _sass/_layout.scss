@@ -16,3 +16,15 @@
     color: $white;
   }
 }
+
+.page-content {
+  margin: 0 auto;
+  padding: $column-gutter $column-gutter $gutter-extra-large;
+  max-width: $max-content-width;
+
+  & > header {
+    padding-bottom: $column-gutter;
+    margin-bottom: $column-gutter;
+    border-bottom: 1px solid $gray-light;
+  }
+}

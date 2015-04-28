@@ -1,0 +1,25 @@
+// ==========================================
+//  FAQ
+// ==========================================
+
+.faq-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.faq-group {
+  padding: $column-gutter;
+
+  &:nth-child(even) {
+    background-color: $gray-extra-light;
+  }
+
+  & > p:last-of-type {
+    margin-bottom: 0;
+  }
+}
+
+.faq-question {
+  font-size: $h5-font-size;
+}

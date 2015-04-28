@@ -2,15 +2,17 @@
 //  Features.scss
 // ==========================================
 
+$max-header-width: rem-calc(550);
+
 .feature-header {
   font-size: rem-calc(28);
-  max-width: rem-calc(550);
+  max-width: $max-header-width;
 }
 
 .feature-subheader {
   @include subheader-copy;
   margin-bottom: $column-gutter;
-  max-width: rem-calc(550);
+  max-width: $max-header-width;
 }
 
 .feature-header,
@@ -34,7 +36,7 @@
 }
 
 .feature {
-  max-width: rem-calc(1024);
+  max-width: $max-content-width;
   margin: 0 auto;
   padding: $gutter-extra-large 0 $column-gutter;
 
