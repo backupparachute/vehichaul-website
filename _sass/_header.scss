@@ -6,9 +6,11 @@ $logo-height-large-screen: rem-calc(60);
 
 
 .site-header {
-  background: url('../img/header-bkg.jpg') no-repeat center -100px;
+  background: url('../img/header-bkg.jpg') no-repeat center 0;
   color: $blue;
+  position: relative;
   width: 100%;
+  min-height: rem-calc(600);
 
   .feature {
     padding-top: $gutter-split;
@@ -74,6 +76,7 @@ $logo-height-large-screen: rem-calc(60);
     letter-spacing: 0.1em;
     padding: rem-calc(3) 0;
     text-transform: uppercase;
+    font-weight:300;
 
     &:hover,
     &.is-active-page {
@@ -144,4 +147,43 @@ $logo-height-large-screen: rem-calc(60);
   @media #{$large-up} {
     max-width: rem-calc(800);
   }
+}
+
+.page-title {
+  position: absolute;
+  top: 48%;
+  text-align: center;
+  width: 100%;
+
+  @include translate2d(0, -50%);
+  
+  h1 {
+    color: $white;
+    font-size: rem-calc(64);
+    font-weight: 300;
+  }
+
+  h2 {
+    color: rgba($white, 0.7);
+    font-family: $font-family-sans-serif;
+    font-size: rem-calc(18);
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+
+    &:after {
+      content: '';
+      width: 100%;
+      max-width: 600px;
+      height: 1px;
+      display: block;
+      margin: 0 auto;
+      margin-top: 5px;
+      border-bottom: 2px solid rgba($yellow, 0.2);
+    }
+
+    & + h1 {
+      margin-top: 0;
+    }
+  }
+
 }

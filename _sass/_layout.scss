@@ -22,9 +22,18 @@
   padding: $column-gutter $column-gutter $gutter-extra-large;
   max-width: $max-content-width;
 
-  & > header {
-    padding-bottom: $column-gutter;
-    margin-bottom: $column-gutter;
-    border-bottom: 1px solid $gray-light;
+  & > section {
+    padding: $gutter-large 0; 
+    text-align: center;
+
+    .feature-subheader {
+      max-width: rem-calc(750);
+    }
   }
+}
+
+.page-content-header {
+  padding-bottom: $column-gutter;
+  margin-bottom: $column-gutter;
+  border-bottom: 1px solid $gray-light;
 }
