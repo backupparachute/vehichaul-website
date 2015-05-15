@@ -83,4 +83,14 @@ $max-header-width: rem-calc(550);
       margin-top: 30%;
     }
   }
+  
+  .landing-faq-btn {
+    margin-top: 15px !important;
+    max-width: none;
+  }
+}
+
+.landing-faq-btn {
+  width: 100% !important;
+  max-width: rem-calc(400);
 }

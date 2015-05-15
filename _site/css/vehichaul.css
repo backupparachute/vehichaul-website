@@ -2675,7 +2675,15 @@ footer {
     margin-top: 55%; }
 
   .feature-middle-copy .feature-header {
-    margin-top: 30%; } }
+    margin-top: 30%; }
+
+  .landing-faq-btn {
+    margin-top: 15px !important;
+    max-width: none; } }
+.landing-faq-btn {
+  width: 100% !important;
+  max-width: 25rem; }
+
 .contact-form {
   margin: 0.75rem auto 0;
   max-width: 34.375rem; }
