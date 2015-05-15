@@ -11,7 +11,8 @@ $logo-height-large-screen: rem-calc(60);
   width: 100%;
 
   .feature {
-    padding-top: $column-gutter;
+    padding-top: $gutter-split;
+    max-width: 100%;
   }
 
   .feature-subheader {
@@ -67,27 +68,27 @@ $logo-height-large-screen: rem-calc(60);
   }
 
   a {
+    border-bottom: 2px solid transparent;
     color: $white;
     font-size: $h5-font-size;
     letter-spacing: 0.1em;
-    padding: rem-calc(3) rem-calc(7);
+    padding: rem-calc(3) 0;
     text-transform: uppercase;
 
     &:hover,
     &.is-active-page {
-      background-color: $white;
-      color: $blue;
+      border-color: $white;
     }
 
     &:active {
-      background-color: $gray-extra-light;
-      color: $blue-shade;
+      border-color: $yellow;
+      color: $yellow;
     }
   }
 
   @media #{$large-up} {
     margin-bottom: 0;
-    margin-top: rem-calc(15);
+    margin-top: rem-calc(5);
   }
 }
 
@@ -123,12 +124,13 @@ $logo-height-large-screen: rem-calc(60);
 
 .header-hero-img {
   position: relative;
-  margin: -20px auto 0;
+  margin: -30px auto 0;
   display: block;
   width: 100%;
   max-width: rem-calc(300);
 
   @media #{$large-up} {
+    margin-top: 15px;
     width: auto;
     max-width: 100%;
   }

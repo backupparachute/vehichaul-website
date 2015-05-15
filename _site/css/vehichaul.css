@@ -2445,7 +2445,8 @@ label.error {
   color: #0d2838;
   width: 100%; }
   .site-header .feature {
-    padding-top: 1.875rem; }
+    padding-top: 0.9375rem;
+    max-width: 100%; }
   .site-header .feature-subheader {
     margin-bottom: 1.875rem; }
   @media only screen and (min-width: 64em) {
@@ -2480,21 +2481,21 @@ label.error {
     display: inline-block;
     margin: 0 0.9375rem; }
   .site-nav a {
+    border-bottom: 2px solid transparent;
     color: #fff;
     font-size: 1.125rem;
     letter-spacing: 0.1em;
-    padding: 0.1875rem 0.4375rem;
+    padding: 0.1875rem 0;
     text-transform: uppercase; }
     .site-nav a:hover, .site-nav a.is-active-page {
-      background-color: #fff;
-      color: #0d2838; }
+      border-color: #fff; }
     .site-nav a:active {
-      background-color: #f2f2f2;
-      color: #031723; }
+      border-color: #d9b347;
+      color: #d9b347; }
   @media only screen and (min-width: 64em) {
     .site-nav {
       margin-bottom: 0;
-      margin-top: 0.9375rem; } }
+      margin-top: 0.3125rem; } }
 
 .hero-header-standard {
   font-size: 3rem;
@@ -2523,12 +2524,13 @@ label.error {
 
 .header-hero-img {
   position: relative;
-  margin: -20px auto 0;
+  margin: -30px auto 0;
   display: block;
   width: 100%;
   max-width: 18.75rem; }
   @media only screen and (min-width: 64em) {
     .header-hero-img {
+      margin-top: 15px;
       width: auto;
       max-width: 100%; } }
 
@@ -2710,6 +2712,15 @@ footer {
 
 .faq-question {
   font-size: 1.125rem; }
+
+.button.ghost.bright.small {
+  padding-top: 0.625rem;
+  padding-right: 1.25rem;
+  padding-bottom: 0.6875rem;
+  padding-left: 1.25rem;
+  font-size: 0.6875rem;
+  font-size: 1rem;
+  margin-bottom: 0; }
 
 .button.ghost {
   border-style: solid;

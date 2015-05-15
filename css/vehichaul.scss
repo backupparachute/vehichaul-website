@@ -35,6 +35,12 @@
 
 // .button.ghost { background: $transparent !important; border:1px solid $blue; color: $blue; }
 
+.button.ghost.bright.small {
+  @include button-size($padding:$button-tny);
+  font-size: $button-font-med;
+  margin-bottom: 0;
+}
+
 .button.ghost {
   @include button($bg: $transparent, $bg-hover:$blue-tint, $border-color:$blue);
   display: block;
