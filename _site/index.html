@@ -92,42 +92,16 @@
         <div class="small-12 large-8 large-centered columns text-center">
           <h1 class="feature-header">Pricing</h1>
           <h2 class="feature-subheader">VehicHaul will work with you to create a customized pricing package starting as low as $24,000 with unlimited VINs, product support, complete setup and maintenance.</h2>
-          <a href="#contact" class="button ghost bright">Contact us today to simplify, integrate and track with VehicHaul.</a>
+          <a href="contact.html" class="button ghost bright">Contact us today to simplify, integrate and track with VehicHaul.</a>
         </div>
       </div>
     </div>
 
-    <div class="row feature feature-extra" id="contact">
-      <div class="small-12 columns">
-        <h1 class="feature-header text-center large-text-left">Contact Us</h1>
-      </div>
-
+    <div class="row feature feature-extra">
       <div class="small-12 large-6 columns text-center large-text-left">
-        <h2 class="feature-subheader">When VehicHaul was designed, our team made a commitment to provide the most innovative mobile visibility app for vehicle delivery and tracking for our clients. Not only can we provide a one-stop shop for the visibility of your company’s operations, we can also customize solutions to integrate with many other aspects of your business.</h2>
+        <h2 class="feature-subheader">VehicHaul is with you from start to finish, going the extra mile to help you and your business meet the ever changing needs of your customers.</h2>
         <h2 class="feature-subheader">Contact us today to learn more about how VehicHaul can simplify your business.</h2>
-        <h3 class="">888-865-2012</h3>
-      </div>
-
-      <div class="small-12 large-6 columns">
-        <form id="contact-form" class="contact-form" data-abide="ajax">
-          <div class="input-wrapper">
-            <input type='text' name='name' required placeholder='Name' />
-            <small class="error">Your name is required and must be valid.</small>
-          </div>
-          <div class="input-wrapper">
-            <input type='text' pattern='phone' name='phone' required placeholder='Phone Number' />
-            <small class="error">Your phone number is required and must be valid.</small>
-          </div>
-          <div class="input-wrapper">
-            <input type='text' pattern='email' name='email' required placeholder='Email Address' />
-            <small class="error">Your email address is required and must be valid.</small>
-          </div>
-          <textarea name="description" placeholder='Description (Optional)'></textarea>
-          <input id="newsletter" name="newsletter" type="checkbox" checked><label for="newsletter">Add to newsletter</label>
-
-          <button class="button" type="submit">Let's Talk</button>
-          <span class="contact-message"></span>
-        </form>
+        <a href="contact.html" class="button ghost bright">Contact us today to learn more about how VehicHaul can simplify your business.</a>
       </div>
     </div>
 
@@ -154,57 +128,8 @@
       </div>
     </div>
   </footer>
-
-  <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
-  <script src="libs/foundation-5.5.0/js/foundation/foundation.js"></script>
-  <script src="libs/foundation-5.5.0/js/foundation/foundation.abide.js"></script>
-
-  <script>
-    $(document).foundation({
-      abide : {
-        patterns: {
-          phone: /^\s*(?:\+?(\d{1,3}))?[-. (]*(\d{3})[-. )]*(\d{3})[-. ]*(\d{4})(?: *x(\d+))?\s*$/
-        }
-      }
-    });
-
-    var $contact  = $('#contact-form'),
-        $message  = $('.contact-message'),
-        $submit   = $contact.find('button[type="submit"]'),
-        messageTimer;
-
-    $contact.on('valid.fndtn.abide', function (e) {
-      if(e.namespace != 'abide.fndtn') {
-        return;
-      }
-
-      $submit.attr('disabled', true);
-
-      $.ajax({
-        dataType: 'jsonp',
-        url: "http://getsimpleform.com/messages/ajax?form_api_token=aaede9209746a6f2b1b9b9325f7d468c",
-        data: $contact.serialize()
-      }).done(function() {
-        $message.text('Your message has been submitted.').removeClass('negative-message').addClass('positive-message').show();
-        $contact[0].reset();
-
-        if(messageTimer) clearTimeout(messageTimer);
-          messageTimer = setTimeout(function(){
-          $message.hide();
-        }, 5000);
-      }).always(function(){
-        $submit.attr('disabled', false);
-      }).fail(function(jqXHR, textStatus){
-        if(messageTimer) clearTimeout(messageTimer);
-        $message.text('An error has occurred ['+textStatus+'].').removeClass('positive-message').addClass('negative-message').show();
-      });
-    });
-
-    $contact.on('focus', 'input, textarea', function(){
-      if(messageTimer) clearTimeout(messageTimer);
-      $message.hide();
-    });
-  </script>
+  
+  
 
   <script>
     (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
