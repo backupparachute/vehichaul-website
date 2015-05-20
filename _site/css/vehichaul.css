@@ -2600,6 +2600,8 @@ label.error {
     .site-nav a:active {
       border-color: #d9b347;
       color: #d9b347; }
+  .site-nav .mobile-menu-btn {
+    display: none; }
   @media only screen and (max-width: 35rem) {
     .site-nav {
       position: fixed;
@@ -2608,26 +2610,26 @@ label.error {
       right: 0;
       background: rgba(3, 23, 35, 0.85);
       text-align: center;
-      padding: 0.3125rem 0.625rem;
+      padding: 0 0.625rem;
       z-index: 9999;
-      margin-top: 0;
-      cursor: pointer; }
-      .site-nav:before {
-        content: "Menu";
+      margin-top: 0; }
+      .site-nav .mobile-menu-btn {
+        background: none;
+        display: block;
         width: 100%;
         font-size: 1rem;
-        color: #fff;
         font-weight: normal;
-        border-bottom: 1px solid transparent;
-        display: block;
         text-transform: uppercase;
-        letter-spacing: 0.1em; }
+        letter-spacing: 0.1em;
+        padding: 0.3125rem 0;
+        margin-bottom: 0;
+        border-bottom: 1px solid transparent; }
+      .site-nav.site-nav-is-open .mobile-menu-btn {
+        border-bottom-color: #2f5063; }
+      .site-nav.site-nav-is-open ul {
+        display: block; }
       .site-nav ul {
         display: none; }
-      .site-nav:hover:before, .site-nav:focus:before {
-        border-bottom-color: #031723; }
-      .site-nav:hover ul, .site-nav:focus ul {
-        display: block; }
       .site-nav li {
         display: block;
         margin: 1.25rem 0; } }
