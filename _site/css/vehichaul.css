@@ -2547,7 +2547,8 @@ label.error {
   top: 55%;
   text-align: center;
   width: 100%;
-  transform: translate(0, -50%); }
+  transform: translate(0, -50%);
+  -webkit-transform: translate(0, -50%); }
   @media only screen and (min-width: 64em) {
     .page-title {
       top: 48%; } }
