@@ -12,6 +12,12 @@ $logo-height-large-screen: rem-calc(60);
   width: 100%;
   min-height: rem-calc(600);
 
+  @media #{$menu-breakpoint}{
+    min-height: 0;
+    height: rem-calc(480);
+    padding-top: rem-calc(30);
+  }
+
   .feature {
     padding-top: $gutter-split;
     max-width: 100%;
@@ -37,6 +43,9 @@ $logo-height-large-screen: rem-calc(60);
         margin-left: $gutter-split;
       }
     }
+    @media #{$menu-breakpoint}{
+      margin-bottom: rem-calc(120);
+    }
   }
 
 }
@@ -52,46 +61,6 @@ $logo-height-large-screen: rem-calc(60);
     margin-bottom: 0;
     margin-left: -5px;
     width: rem-calc(255);
-  }
-}
-
-.site-nav {
-  margin-bottom: $gutter-large;
-
-  ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;    
-  }
-
-  li {
-    display: inline-block;
-    margin: 0 $gutter-split;
-  }
-
-  a {
-    border-bottom: 2px solid transparent;
-    color: $white;
-    font-size: $h5-font-size;
-    letter-spacing: 0.1em;
-    padding: rem-calc(3) 0;
-    text-transform: uppercase;
-    font-weight:300;
-
-    &:hover,
-    &.is-active-page {
-      border-color: $white;
-    }
-
-    &:active {
-      border-color: $yellow;
-      color: $yellow;
-    }
-  }
-
-  @media #{$large-up} {
-    margin-bottom: 0;
-    margin-top: rem-calc(5);
   }
 }
 
@@ -127,10 +96,15 @@ $logo-height-large-screen: rem-calc(60);
 
 .header-hero-img {
   position: relative;
-  margin: -30px auto 0;
+  margin: 20px auto 0;
   display: block;
   width: 100%;
   max-width: rem-calc(345);
+
+
+  @media #{$menu-breakpoint}{
+    margin-top: 0;
+  }
 
   @media #{$large-up} {
     margin-top: 15px;

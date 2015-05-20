@@ -2456,6 +2456,11 @@ label.error {
   position: relative;
   width: 100%;
   min-height: 37.5rem; }
+  @media only screen and (max-width: 35rem) {
+    .site-header {
+      min-height: 0;
+      height: 30rem;
+      padding-top: 1.875rem; } }
   .site-header .feature {
     padding-top: 0.9375rem;
     max-width: 100%; }
@@ -2470,6 +2475,9 @@ label.error {
     @media only screen and (min-width: 64em) {
       .site-header .download-btn + .download-btn {
         margin-left: 0.9375rem; } }
+  @media only screen and (max-width: 35rem) {
+    .site-header .download-btn {
+      margin-bottom: 7.5rem; } }
 
 .logo {
   display: block;
@@ -2482,33 +2490,6 @@ label.error {
       margin-bottom: 0;
       margin-left: -5px;
       width: 15.9375rem; } }
-
-.site-nav {
-  margin-bottom: 3.75rem; }
-  .site-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0; }
-  .site-nav li {
-    display: inline-block;
-    margin: 0 0.9375rem; }
-  .site-nav a {
-    border-bottom: 2px solid transparent;
-    color: #fff;
-    font-size: 1.125rem;
-    letter-spacing: 0.1em;
-    padding: 0.1875rem 0;
-    text-transform: uppercase;
-    font-weight: 300; }
-    .site-nav a:hover, .site-nav a.is-active-page {
-      border-color: #fff; }
-    .site-nav a:active {
-      border-color: #d9b347;
-      color: #d9b347; }
-  @media only screen and (min-width: 64em) {
-    .site-nav {
-      margin-bottom: 0;
-      margin-top: 0.3125rem; } }
 
 .hero-header-standard {
   font-size: 3rem;
@@ -2537,10 +2518,13 @@ label.error {
 
 .header-hero-img {
   position: relative;
-  margin: -30px auto 0;
+  margin: 20px auto 0;
   display: block;
   width: 100%;
   max-width: 21.5625rem; }
+  @media only screen and (max-width: 35rem) {
+    .header-hero-img {
+      margin-top: 0; } }
   @media only screen and (min-width: 64em) {
     .header-hero-img {
       margin-top: 15px;
@@ -2592,6 +2576,61 @@ label.error {
       border-bottom: 2px solid rgba(217, 179, 71, 0.2); }
     .page-title h2 + h1 {
       margin-top: 0; }
+
+.site-nav {
+  margin-bottom: 0;
+  margin-top: 0.3125rem; }
+  .site-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0; }
+  .site-nav li {
+    display: inline-block;
+    margin: 0 0.9375rem; }
+  .site-nav a {
+    color: #fff;
+    font-size: 1.125rem;
+    letter-spacing: 0.1em;
+    padding: 0.1875rem 0;
+    text-transform: uppercase;
+    font-weight: 300;
+    border-bottom: 2px solid transparent; }
+    .site-nav a:hover, .site-nav a.is-active-page {
+      border-color: #fff; }
+    .site-nav a:active {
+      border-color: #d9b347;
+      color: #d9b347; }
+  @media only screen and (max-width: 35rem) {
+    .site-nav {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      background: rgba(3, 23, 35, 0.85);
+      text-align: center;
+      padding: 0.3125rem 0.625rem;
+      z-index: 9999;
+      margin-top: 0;
+      cursor: pointer; }
+      .site-nav:before {
+        content: "Menu";
+        width: 100%;
+        font-size: 1rem;
+        color: #fff;
+        font-weight: normal;
+        border-bottom: 1px solid transparent;
+        display: block;
+        text-transform: uppercase;
+        letter-spacing: 0.1em; }
+      .site-nav ul {
+        display: none; }
+      .site-nav:hover:before {
+        border-bottom-color: #031723; }
+      .site-nav:hover ul {
+        display: block; }
+      .site-nav li {
+        display: block;
+        margin: 1.25rem 0; } }
 
 footer {
   background: #031723;
