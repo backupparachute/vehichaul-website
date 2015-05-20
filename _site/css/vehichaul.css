@@ -2624,9 +2624,9 @@ label.error {
         letter-spacing: 0.1em; }
       .site-nav ul {
         display: none; }
-      .site-nav:hover:before {
+      .site-nav:hover:before, .site-nav:focus:before {
         border-bottom-color: #031723; }
-      .site-nav:hover ul {
+      .site-nav:hover ul, .site-nav:focus ul {
         display: block; }
       .site-nav li {
         display: block;

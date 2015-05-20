@@ -62,7 +62,8 @@
       display:none;
     }
 
-    &:hover {
+    &:hover,
+    &:focus {
       &:before {
         border-bottom-color: $blue-shade;
       }
