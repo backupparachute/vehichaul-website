@@ -2425,11 +2425,15 @@ label.error {
 
 .img-bkg {
   background: url("../img/country-road.jpg") no-repeat center bottom;
-  padding: 5.9375rem 0.9375rem 7.5rem 0.9375rem;
+  padding: 1.25rem 0.9375rem;
   max-height: 28.125rem; }
   .img-bkg .feature-header,
   .img-bkg .feature-subheader {
     color: #fff; }
+  @media only screen and (min-width: 64em) {
+    .img-bkg {
+      padding-top: 5.9375rem;
+      padding-bottom: 7.5rem; } }
 
 .page-content {
   margin: 0 auto;

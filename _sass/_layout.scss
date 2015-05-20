@@ -8,12 +8,17 @@
 
 .img-bkg {
   background: url('../img/country-road.jpg') no-repeat center bottom;
-  padding: rem-calc(95) $gutter-split rem-calc(120) $gutter-split;
+  padding: rem-calc(20) $gutter-split;
   max-height: rem-calc(450);
 
   .feature-header,
   .feature-subheader {
     color: $white;
+  }
+
+  @media #{$large-up} {
+    padding-top: rem-calc(95);
+    padding-bottom: rem-calc(120);
   }
 }
 
