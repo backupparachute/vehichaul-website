@@ -15,7 +15,7 @@
   }
 
   button[type="submit"] {
-    @include button($bg: $blue, $bg-hover:$blue-tint);
+    @include button($bg: $yellow, $bg-hover:$yellow-tint);
     width: 100%;
     display: block;
 

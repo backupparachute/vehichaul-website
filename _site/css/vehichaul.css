@@ -2771,16 +2771,16 @@ footer {
     padding-bottom: 1.0625rem;
     padding-left: 2rem;
     font-size: 1rem;
-    background-color: #0d2838;
-    border-color: #0a202d;
+    background-color: #d9b347;
+    border-color: #bf9827;
     color: #fff;
     transition: background-color 300ms ease-out;
     width: 100%;
     display: block; }
     .contact-form button[type="submit"]:hover, .contact-form button[type="submit"]:focus {
-      background-color: #2f5063; }
+      background-color: #f9d672; }
     .contact-form button[type="submit"]:hover, .contact-form button[type="submit"]:focus {
-      color: #fff; }
+      color: #333333; }
     .contact-form button[type="submit"]:disabled {
       background: #868789; }
   @media only screen and (min-width: 64em) {
