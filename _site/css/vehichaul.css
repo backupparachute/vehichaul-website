@@ -2540,7 +2540,7 @@ label.error {
   margin: -30px auto 0;
   display: block;
   width: 100%;
-  max-width: 18.75rem; }
+  max-width: 21.5625rem; }
   @media only screen and (min-width: 64em) {
     .header-hero-img {
       margin-top: 15px;
@@ -2560,14 +2560,21 @@ label.error {
 
 .page-title {
   position: absolute;
-  top: 48%;
+  top: 55%;
   text-align: center;
   width: 100%;
   transform: translate(0, -50%); }
+  @media only screen and (min-width: 64em) {
+    .page-title {
+      top: 48%; } }
   .page-title h1 {
     color: #fff;
-    font-size: 4rem;
-    font-weight: 300; }
+    font-size: 2.75rem;
+    font-weight: 300;
+    padding: 0 2.5rem; }
+    @media only screen and (min-width: 64em) {
+      .page-title h1 {
+        font-size: 4rem; } }
   .page-title h2 {
     color: rgba(255, 255, 255, 0.7);
     font-family: "Source Sans Pro", sans-serif;
@@ -2576,7 +2583,7 @@ label.error {
     text-transform: uppercase; }
     .page-title h2:after {
       content: '';
-      width: 100%;
+      width: 90%;
       max-width: 600px;
       height: 1px;
       display: block;
