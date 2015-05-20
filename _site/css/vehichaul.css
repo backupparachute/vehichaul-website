@@ -2460,7 +2460,7 @@ label.error {
     .site-header {
       min-height: 0;
       height: 30rem;
-      padding-top: 1.875rem; } }
+      padding-top: 2.5rem; } }
   .site-header .feature {
     padding-top: 0.9375rem;
     max-width: 100%; }
@@ -2621,7 +2621,7 @@ label.error {
         font-weight: normal;
         text-transform: uppercase;
         letter-spacing: 0.1em;
-        padding: 0.3125rem 0;
+        padding: 0.625rem 0;
         margin-bottom: 0;
         border-bottom: 1px solid transparent; }
       .site-nav.site-nav-is-open .mobile-menu-btn {

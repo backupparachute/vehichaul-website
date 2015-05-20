@@ -15,7 +15,7 @@ $logo-height-large-screen: rem-calc(60);
   @media #{$menu-breakpoint}{
     min-height: 0;
     height: rem-calc(480);
-    padding-top: rem-calc(30);
+    padding-top: rem-calc(40);
   }
 
   .feature {
