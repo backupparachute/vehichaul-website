@@ -38,7 +38,9 @@
 }
 
 .page-content-header {
-  padding-bottom: $column-gutter;
-  margin-bottom: $column-gutter;
-  border-bottom: 1px solid $gray-light;
+  margin-bottom: $gutter-large;
+  background: rgba($yellow-tint, 0.2);
+  padding: rem-calc(60) rem-calc(40);
+  font-size: $h5-font-size;
+  line-height: 1.8;
 }
