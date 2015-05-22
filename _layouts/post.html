@@ -5,7 +5,19 @@ layout: master
 {% include post-header.html %}
 
 <main class="page-content article-read-view">
-<h1 class="article-title">{{ page.title }}</h1>
-<h6 class="article-date">{{ page.date | date: '%B %d, %Y' }}</h6>
-{{ content }}
+  <h1 class="article-title">{{ page.title }}</h1>
+  <h6 class="article-date">{{ page.date | date: '%B %d, %Y' }}</h6>
+  
+  {{ content }}
+
+  <div class="article-nav">
+    {% if page.previous.url %}
+    <a href="{{page.previous.url}}" class="button bright small ghost">Previous</a>
+    {% endif %}
+
+    {% if page.next.url %}
+    <a href="{{page.next.url}}" class="button bright small ghost">Next</a>
+    {% endif %}
+  </div>
+
 </main>

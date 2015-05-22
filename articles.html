@@ -10,8 +10,8 @@ subtitle: Stay Informed
       <li class="article">
         <h1 class="article-title">{{ post.title }}</h1>
         <h4 class="article-date">{{ post.date | date: '%B %d, %Y' }}</h4>
-        <h2 class="article-preview">{{ post.excerpt | truncatewords: 50}}</h2>
-        <a href="{{ post.url }}">Read More</a>
+        <div class="article-preview">{{ post.excerpt | truncatewords: 50}}</div>
+        <a class="button ghost bright small" href="{{ post.url }}">Read More</a>
       </li>
     {% endfor %}
   </ul>

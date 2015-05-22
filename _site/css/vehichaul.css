@@ -2468,7 +2468,7 @@ label.error {
 
 .article-date {
   color: #868789;
-  font-size: 1rem;
+  font-size: 0.8rem;
   font-weight: 300;
   border-bottom: 1px solid rgba(0, 0, 0, 0.15);
   padding-bottom: 0.625rem; }
@@ -2478,6 +2478,18 @@ label.error {
   max-width: 50rem; }
   .article-read-view .article-date {
     margin-bottom: 2.5rem; }
+
+.article-preview {
+  margin-bottom: 0; }
+
+.article-nav {
+  border-top: 1px solid rgba(0, 0, 0, 0.15);
+  padding-top: 1.875rem;
+  margin-top: 5rem;
+  text-align: center; }
+  .article-nav .button {
+    margin: 0 0.625rem !important;
+    min-width: 6.25rem; }
 
 .site-header {
   background: url("../img/header-bkg.jpg") no-repeat center 0;

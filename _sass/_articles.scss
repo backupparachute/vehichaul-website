@@ -17,8 +17,8 @@
 
 .article-date {
   color: $gray-light;
-  font-size: $h6-font-size;
-  font-weight: 300;
+  font-size: $h6-font-size*0.8;
+  font-weight: $font-weight-light;
   border-bottom: 1px solid rgba(0,0,0,0.15);
   padding-bottom: rem-calc(10);
 }
@@ -29,5 +29,21 @@
 
   .article-date {
     margin-bottom: rem-calc(40);
+  }
+}
+
+.article-preview {
+  margin-bottom: rem-calc(0);
+}
+
+.article-nav {
+  border-top: 1px solid rgba(0,0,0,0.15);
+  padding-top: rem-calc(30);
+  margin-top: rem-calc(80);
+  text-align: center;
+
+  .button {
+    margin: 0 rem-calc(10) !important;
+    min-width: rem-calc(100);
   }
 }
