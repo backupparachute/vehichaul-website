@@ -2452,13 +2452,40 @@ label.error {
   font-size: 1.125rem;
   line-height: 1.8; }
 
+.article-list {
+  margin: 0 auto;
+  padding: 0;
+  list-style-type: none;
+  max-width: 50rem; }
+
+.article {
+  margin-bottom: 5rem; }
+
+.article-title {
+  font-size: 1.6875rem;
+  font-weight: bold;
+  color: #0d2838; }
+
+.article-date {
+  color: #868789;
+  font-size: 1rem;
+  font-weight: 300;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+  padding-bottom: 0.625rem; }
+
+.article-read-view {
+  padding-top: 3.75rem;
+  max-width: 50rem; }
+  .article-read-view .article-date {
+    margin-bottom: 2.5rem; }
+
 .site-header {
   background: url("../img/header-bkg.jpg") no-repeat center 0;
   color: #0d2838;
   position: relative;
   width: 100%;
   min-height: 37.5rem; }
-  @media only screen and (max-width: 35rem) {
+  @media only screen and (max-width: 42.1875rem) {
     .site-header {
       min-height: 0;
       height: 30rem;
@@ -2477,9 +2504,12 @@ label.error {
     @media only screen and (min-width: 64em) {
       .site-header .download-btn + .download-btn {
         margin-left: 0.9375rem; } }
-  @media only screen and (max-width: 35rem) {
+  @media only screen and (max-width: 42.1875rem) {
     .site-header .download-btn {
       margin-bottom: 7.5rem; } }
+  .site-header.post-header {
+    min-height: 0;
+    height: auto; }
 
 .logo {
   display: block;
@@ -2524,7 +2554,7 @@ label.error {
   display: block;
   width: 100%;
   max-width: 21.5625rem; }
-  @media only screen and (max-width: 35rem) {
+  @media only screen and (max-width: 42.1875rem) {
     .header-hero-img {
       margin-top: 0; } }
   @media only screen and (min-width: 64em) {
@@ -2605,7 +2635,7 @@ label.error {
       color: #d9b347; }
   .site-nav .mobile-menu-btn {
     display: none; }
-  @media only screen and (max-width: 35rem) {
+  @media only screen and (max-width: 42.1875rem) {
     .site-nav {
       position: fixed;
       top: 0;

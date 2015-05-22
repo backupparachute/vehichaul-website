@@ -1,0 +1,18 @@
+---
+layout: default
+title: Articles
+subtitle: Stay Informed
+---
+
+<div class="row">
+  <ul class="article-list">
+    {% for post in site.posts %}
+      <li class="article">
+        <h1 class="article-title">{{ post.title }}</h1>
+        <h4 class="article-date">{{ post.date | date: '%B %d, %Y' }}</h4>
+        <h2 class="article-preview">{{ post.excerpt | truncatewords: 50}}</h2>
+        <a href="{{ post.url }}">Read More</a>
+      </li>
+    {% endfor %}
+  </ul>
+</div>

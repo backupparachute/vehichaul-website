@@ -48,6 +48,11 @@ $logo-height-large-screen: rem-calc(60);
     }
   }
 
+  &.post-header {
+    min-height: 0;
+    height: auto;
+  }
+
 }
 
 .logo {
