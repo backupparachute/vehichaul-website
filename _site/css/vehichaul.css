@@ -2767,6 +2767,10 @@ footer {
 .feature-side-by-side {
   margin-left: -2.5rem; }
 
+.feature-icon {
+  width: 16rem;
+  margin-bottom: 1.25rem; }
+
 @media only screen and (min-width: 64em) {
   .feature-lower-copy .feature-header {
     margin-top: 55%; }
