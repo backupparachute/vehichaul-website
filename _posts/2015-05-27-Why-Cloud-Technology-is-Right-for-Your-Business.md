@@ -1,6 +1,5 @@
 ---
 layout: post
-permalink: :title
 ---
 
 Data matters and hows your company manages data can significantly impact the bottom line. The transportation and logistics market depends heavily on mobile tracking and delivery data, which is why cloud technology has experienced explosive growth. 
