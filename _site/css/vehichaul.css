@@ -2465,6 +2465,12 @@ label.error {
   font-size: 1.6875rem;
   font-weight: bold;
   color: #0d2838; }
+  .article-title a {
+    color: #0d2838; }
+    .article-title a:hover {
+      color: #2f5063; }
+    .article-title a:active {
+      color: #031723; }
 
 .article-date {
   color: #868789;

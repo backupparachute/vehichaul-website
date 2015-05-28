@@ -13,6 +13,17 @@
   font-size: $h3-font-size;
   font-weight: $font-weight-bold;
   color: $blue;
+
+  a {
+    color: $blue;
+    &:hover {
+      color: $blue-tint;
+    }
+
+    &:active {
+      color: $blue-shade;
+    }
+  }
 }
 
 .article-date {
