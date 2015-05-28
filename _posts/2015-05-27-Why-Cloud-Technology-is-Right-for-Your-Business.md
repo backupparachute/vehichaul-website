@@ -1,5 +1,6 @@
 ---
 layout: post
+permalink: /articles/why-cloud-technology-is-right-for-your-business
 ---
 
 Data matters and hows your company manages data can significantly impact the bottom line. The transportation and logistics market depends heavily on mobile tracking and delivery data, which is why cloud technology has experienced explosive growth. 
