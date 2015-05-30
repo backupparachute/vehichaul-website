@@ -72,7 +72,7 @@
 
   padding:0 $feature-list-padding $feature-list-padding*2;
   position: relative;
-  margin-top: -160px;
+  margin-top: -120px;
   margin-bottom: $feature-list-padding;
   background: $yellow-tint;
 
@@ -95,22 +95,69 @@
     $check-yellow-shade: "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IiB2aWV3Qm94PSItMjU1IDI1NyA1MTIgNTEyIiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IC0yNTUgMjU3IDUxMiA1MTIiIHhtbDpzcGFjZT0icHJlc2VydmUiPjxwYXRoIGlkPSJjaGVjay1tYXJrLTktaWNvbiIgZmlsbD0iIzk2NzIwRCIgZD0iTS0yMDUsNDkzLjJjNDcuNCw5LjksMTExLjIsMjQuNSwxNTcuNCw1NC41YzU0LjItNzIuNiwxNDguNy0xNDIsMjU0LjYtMTk3LjhDMTA2LjQsNDQ5LDIxLjMsNTYzLTM1LjEsNjc2LjFDLTgwLjcsNjExLjUtMTI4LjYsNTU1LjgtMjA1LDQ5My4yeiIvPjwvc3ZnPg==";
 
     li {
-      float: left;
-      width: 25%;
+      width: 100%;
       padding-left: rem-calc(24) + rem-calc(6);
-      padding-right: rem-calc(20);
-      margin-bottom: rem-calc(30);
+      margin-bottom: rem-calc(20);
       background: url(#{$check-yellow-shade}) no-repeat 0 0;
       background-size: rem-calc(24);
+      font-size: 18px;
 
+      @media only screen and (min-width: #{em-calc(560)}){
+        
+        float: left;
+        padding-right: rem-calc(20);
+        width: 50%;
 
-      &:nth-child(4){
-        margin-right: rem-calc(-20);
+        &:nth-child(2){
+          margin-right: rem-calc(-20);
+        }
+
+        &:nth-child(2n+1){
+          clear:both;
+        }
       }
 
-      &:nth-child(4n+1){
-        clear:both;
+      @media #{$medium-up} {
+        width: 33%;
+
+        &:nth-child(2){
+          margin-right: 0;
+        }
+
+        &:nth-child(2n+1){
+          clear: none;
+        }
+
+        &:nth-child(3){
+          margin-right: rem-calc(-20);
+        }
+
+        &:nth-child(3n+1){
+          clear: both;
+        }
       }
+
+      @media #{$large-up} {
+        width: 25%;
+
+        &:nth-child(3){
+          margin-right: 0;
+        }
+
+        &:nth-child(3n+1){
+          clear: none;
+        }
+
+        &:nth-child(4){
+          margin-right: rem-calc(-20);
+        }
+
+        &:nth-child(4n+1){
+          clear: both;
+        }
+      }
+
+
     }  
   }
   
