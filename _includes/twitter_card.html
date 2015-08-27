@@ -20,10 +20,10 @@
 {% if page.excerpt %}
   <meta name="twitter:description" content="{{ page.excerpt }}">
 {% else %}
-  <meta name="twitter:description" content="{{ site.description }}">
+  <meta name="twitter:description" content="{{ site.excerpt }}">
 {% endif %}
 {% if page.thumbnail %}
-  <meta name="twitter:image:src" content="{{ site.url }}/img/{{ page.thumbnail }}">
+  <meta name="twitter:image" content="{{ site.url }}/img/{{ page.thumbnail }}">
 {% else %}
-  <meta name="twitter:image:src" content="{{ site.url }}/img/vehichaul-logo-blue-horizontal-small.png">
+  <meta name="twitter:image" content="{{ site.url }}/img/header-bkg.jpg">
 {% endif %}
