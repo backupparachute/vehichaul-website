@@ -1,6 +1,7 @@
 ---
 layout: post
 permalink: /articles/5-steps-to-a-successful-vehicle-carrier-business
+thumbnail: articles-vh-twitter.png
 ---
 
 A vehicle-carrier business is only successful with the right tools and steps to stay ahead of the competition. Although the business can be very profitable, it takes preparation, innovative ideas and mobile technology to stay on top as the premium carrier.

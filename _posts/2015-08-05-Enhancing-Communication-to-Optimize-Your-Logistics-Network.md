@@ -1,6 +1,7 @@
 ---
 layout: post
 permalink: /articles/enhancing-communication-to-optimize-your-logistics-network
+thumbnail: articles-vh-twitter.png
 ---
 
 As a vehicle hauler, you know that communication is key. Within a logistics network, you need to ensure the communication between carriers, importers, exporters, freight forwarders and hubs is not hindered to avoid inaccuracies that affect transportation routes and service operations.
