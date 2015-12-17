@@ -1,6 +1,7 @@
 ---
 layout: post
 permalink: /articles/5-reasons-why-epod-is-right-for-your-business
+title: Five Reasons Why ePOD is Right for Your Business
 thumbnail: articles-vh-twitter.png
 ---
 
