@@ -1,6 +1,7 @@
 ---
 layout: post
 permalink: /articles/how-epod-technoloy-can-make-you-the-vehicle-carrier-of-choice
+title: How ePOD Technology Can Make You the Vehicle Carrier of Choice
 thumbnail: articles-vh-twitter.png
 ---
 
