@@ -21,6 +21,5 @@ Why shouldn’t you choose VehicHaul is the real question. Our mobile app helps 
 
 Lets face it. ePOD is not something you can avoid. It is not going away. It is not in the future. It is now. VehicHaul can help make the future your present-day reality. 
 
-Mile after mile, VehicHaul can optimize your logistics network without charging per VIN. Are you ready to take the necessary steps to enhance your vehicle carrier business with an  ePOD solution? Contact VehicHaul at 1-888-865-2012 or visit VehicHaul.com.
-
+Mile after mile, VehicHaul can optimize your logistics network without charging per VIN. Are you ready to take the necessary steps to enhance your vehicle carrier business with an  ePOD solution? [Contact us](http://www.vehichaul.com/contact "Contact Us") at 1-888-865-2012 or visit [VehicHaul.com](http://www.vehichaul.com/ "VehicHaul").
 
