@@ -14,4 +14,4 @@ Electronic proof of delivery is not just an innovative way of the future; it is 
 
 Incorporating ePOD technology into your daily business operations is not just an option, it is a necessary step to build client relations and simplify your processes. ePOD is not the future; it is the now. 
 
-See how VehicHaul can put your business into the digital and mobile age. Mile after mile, VehicHaul can optimize your logistics network without charging per VIN. Are you ready to take the necessary steps to enhance your vehicle carrier business with an  ePOD solution? Contact VehicHaul at 1-888-865-2012 or visit VehicHaul.com.
+See how VehicHaul can put your business into the digital and mobile age. Mile after mile, VehicHaul can optimize your logistics network without charging per VIN. Are you ready to take the necessary steps to enhance your vehicle carrier business with an  ePOD solution? [Contact us](http://www.vehichaul.com/contact "Contact Us") at 1-888-865-2012 or visit [VehicHaul.com](http://www.vehichaul.com/ "VehicHaul").
