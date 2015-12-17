@@ -1,6 +1,7 @@
 ---
 layout: post
 permalink: /articles/epod-is-not-the-future-it-is-the-now
+title: ePOD is Not the Future. It is the Now.
 thumbnail: articles-vh-twitter.png
 ---
 
