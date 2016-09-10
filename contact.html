@@ -30,7 +30,11 @@ scripts:
         <input type='text' pattern='email' name='email' required placeholder='Email Address' />
         <small class="error">Your email address is required and must be valid.</small>
       </div>
-      <textarea name="description" placeholder='Description (Optional)'></textarea>
+      <div class="input-wrapper">
+        <textarea name="description" placeholder='Question or Comment' required></textarea>
+        <small class="error">Your Question or Comment is required.</small>
+      </div>
+      
       <input id="newsletter" name="newsletter" type="checkbox" checked><label for="newsletter">Add to newsletter</label>
 
       <button class="button" type="submit">Let's Talk</button>
