@@ -20,7 +20,7 @@ $contact.on('valid.fndtn.abide', function (e) {
 
   $.ajax({
     dataType: 'jsonp',
-    url: "http://getsimpleform.com/messages/ajax?form_api_token=aaede9209746a6f2b1b9b9325f7d468c",
+    url: "http://getsimpleform.com/messages/ajax?form_api_token=0387e5eaba68855c4987c582bcbd2b76",
     data: $contact.serialize()
   }).done(function() {
     $message.text('Your message has been submitted.').removeClass('negative-message').addClass('positive-message').show();
