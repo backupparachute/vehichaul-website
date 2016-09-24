@@ -7,7 +7,7 @@ thumbnail: articles-vh-twitter.png
 
 Rapid technology advancements are changing the logistic and transportation industry. If not too long ago, the Internet of Things (IoT), automation, and drone delivery were things of pure science fiction, nowadays, transportation companies are integrating them to provide faster, cheaper, and more reliable delivery.
 
-Welcome to the hyper-connected world of logistic industry. Here’s a look at the five major trends that will shape the future of logistic technology in 2017.
+Welcome to the hyper-connected world of logistic industry that is going through a time of unprecedented transformation. New technologies are frequently emerging, promising to change how shipping companies function. Here’s a look at the five major trends that will shape the future of logistic technology in 2017.
 
 ![future logistics](/img/articles/future-logistics.jpg)
 
@@ -32,8 +32,6 @@ Volvo Trucks made headlines when they recently announced that they would start t
 Incorporating innovative technology to build a successful business is just as important in the logistic industry as it is in any other niche. Electronic logging devices (ELD) are one of the best ways to keep a competitive edge and, with the impending [FMCSA Ruling](https://www.fmcsa.dot.gov/hours-service/elds/electronic-logging-devices), it is very likely to become a sought after technology in 2017. More and more companies will attach an ELD to their vehicles to accurately record driving hours.
 
 Moreover, a mobile solution, such as VehicHaul can help you streamline shipments by collecting proof of delivery information and allowing you to communicate better with both drivers and clients.
-
-The logistics industry is going through a time of unprecedented transformation. New technologies are frequently emerging, promising to change how shipping companies function.
 
 **VehicleHaul is currently doing R&D with J1939 adapters and determining the feasibility of starting an ELD pilot program.** [Are you ready to become part of the future?](http://www.vehichaul.com/contact "ELD starter program")
 
