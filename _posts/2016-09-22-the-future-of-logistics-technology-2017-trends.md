@@ -5,11 +5,11 @@ title: The Future of Logistics Technology - 5 Trends that Will Shape 2017
 thumbnail: articles-vh-twitter.png
 ---
 
-![future logistics](/img/articles/future-logistics.jpg)
-
 Rapid technology advancements are changing the logistic and transportation industry. If not too long ago, the Internet of Things (IoT), automation, and drone delivery were things of pure science fiction, nowadays, transportation companies are integrating them to provide faster, cheaper, and more reliable delivery.
 
 Welcome to the hyper-connected world of logistic industry. Here’s a look at the five major trends that will shape the future of logistic technology in 2017.
+
+![future logistics](/img/articles/future-logistics.jpg)
 
 ### 1. Increasing Use of the Internet of Things
 
