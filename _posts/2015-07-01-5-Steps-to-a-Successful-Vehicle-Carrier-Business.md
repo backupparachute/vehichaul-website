@@ -1,6 +1,7 @@
 ---
 layout: post
 permalink: /articles/5-steps-to-a-successful-vehicle-carrier-business
+title: 5 Steps to a Succesful Vehicle Carrier Business
 thumbnail: articles-vh-twitter.png
 ---
 

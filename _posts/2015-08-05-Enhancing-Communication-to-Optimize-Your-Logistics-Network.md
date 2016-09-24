@@ -1,6 +1,7 @@
 ---
 layout: post
 permalink: /articles/enhancing-communication-to-optimize-your-logistics-network
+title: Enhancing Communications to Optimize Your Logistics Network
 thumbnail: articles-vh-twitter.png
 ---
 

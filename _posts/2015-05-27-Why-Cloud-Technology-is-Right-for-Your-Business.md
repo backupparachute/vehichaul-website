@@ -1,6 +1,7 @@
 ---
 layout: post
 permalink: /articles/why-cloud-technology-is-right-for-your-business
+title: Why Cloud Technology is Right for your Business
 thumbnail: articles-vh-twitter.png
 ---
 
