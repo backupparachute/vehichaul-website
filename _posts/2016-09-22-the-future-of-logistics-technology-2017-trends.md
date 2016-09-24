@@ -31,10 +31,10 @@ Volvo Trucks made headlines when they recently announced that they would start t
 
 Incorporating innovative technology to build a successful business is just as important in the logistic industry as it is in any other niche. Electronic logging devices (ELD) are one of the best ways to keep a competitive edge and, with the impending [FMCSA Ruling](https://www.fmcsa.dot.gov/hours-service/elds/electronic-logging-devices), it is very likely to become a sought after technology in 2017. More and more companies will attach an ELD to their vehicles to accurately record driving hours.
 
-Moreover, an mobile solution, such as VehicHaul can help you streamline shipments by collecting proof of delivery information and allowing you to communicate better with both drivers and clients.
+Moreover, a mobile solution, such as VehicHaul can help you streamline shipments by collecting proof of delivery information and allowing you to communicate better with both drivers and clients.
 
 The logistics industry is going through a time of unprecedented transformation. New technologies are frequently emerging, promising to change how shipping companies function.
 
-VehicleHaul is currently doing R&D with J1939 adapters and determining the feasibility of an ELD pilot program. Are you ready to become part of the future?
+**VehicleHaul is currently doing R&D with J1939 adapters and determining the feasibility of starting an ELD pilot program.** [Are you ready to become part of the future?](http://www.vehichaul.com/contact "ELD starter program")
 
 VehicleHaul can help you make the future your present-day reality. Our app can optimize your logistic network without charging per VIN. If you want to learn more, don’t hesitate to [Contact us](http://www.vehichaul.com/contact "Contact Us") at 1-888-865-2012 or visit [VehicHaul.com](http://www.vehichaul.com/ "VehicHaul").
