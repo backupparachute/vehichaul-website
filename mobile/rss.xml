@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<rss version="2.0">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
+  <atom:link href="http://vehichaul.com/mobile/rss.xml" rel="self" type="application/rss+xml" />
   <title>Vehichaul ePOD Android Builds</title>
   <description>Version list</description>
   <link>http://vehichaul.com</link>
@@ -24,7 +25,6 @@
 	</description>
     <link>http://vehichaul.com/mobile/droid/v1.8.16/app-release.apk</link>
     <guid>http://vehichaul.com/mobile/droid/v1.8.16/app-release.apk</guid>
-    <pubDate>Fri, 11 AUG 2017 00:00:00 EST</pubDate>
+    <pubDate>Fri, 10 AUG 2017 00:00:00 EST</pubDate>
   </item>
-</channel>
 </rss>
