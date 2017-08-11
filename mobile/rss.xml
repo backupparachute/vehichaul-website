@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+<channel>
+  <title>Vehichaul ePOD Android Builds</title>
+  <description>Version list</description>
+  <link>http://vehichaul.com</link>
+
+  <item>
+    <title>v.1.8.16</title>
+    <description>
+		BETA Release Notes:
+		
+		- updated damage image processing to help with slow connections
+		- create damage records immediately, upload images in the background
+		- display full address info on load details for each pickup and delivery section
+		- compress damage images to reduce size and bandwidth
+
+		- BUGFIX: fixed damage code issue to help with app crashes
+		- BUGFIX: implement font cache to reduce memory footprint and leaks
+
+		* experimental: graceful fallback when google play services not available on older devices
+		
+	</description>
+    <link>http://vehichaul.com/mobile/droid/v1.8.16/app-release.apk</link>
+    <guid></guid>
+    <pubDate>2017-08-11</pubDate>
+  </item>
+</channel>
+</rss>
