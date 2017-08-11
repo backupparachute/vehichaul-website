@@ -7,6 +7,7 @@
 
   <item>
     <title>v.1.8.16</title>
+	<category>android</category>
     <description>
 		BETA Release Notes:
 		
@@ -22,8 +23,8 @@
 		
 	</description>
     <link>http://vehichaul.com/mobile/droid/v1.8.16/app-release.apk</link>
-    <guid></guid>
-    <pubDate>2017-08-11</pubDate>
+    <guid>http://vehichaul.com/mobile/droid/v1.8.16/app-release.apk</guid>
+    <pubDate>Fri, 11 AUG 2017 00:00:00 EST</pubDate>
   </item>
 </channel>
 </rss>
