@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Vehichaul ePOD Mobile Links</title>
+    <script src='//code.jquery.com/jquery-1.11.2.min.js'></script>
+    <script>
+        $(function () {
+          if (typeof MobileEsp.DetectIos !== 'undefined' && MobileEsp.DetectIos()) {
+            // Add an iframe to twitter://, and then an iframe for the app store
+            // link. If the first fails to redirect to the Twitter app, the
+            // second will redirect to the app on the App Store. We use jQuery
+            // to add this after the document is fully loaded, so if the user
+            // comes back to the browser, they see the content they expect.
+            // $('body').append('<iframe class="twitter-detect" src="twitter://" />')
+       //        .append('<iframe class="twitter-detect" src="itms-apps://itunes.com/apps/twitter" />');
+	   var ua = navigator.userAgent.toLowerCase();
+	   if (ua.indexOf("android") >= 0) {
+	   	window.location = "https://play.google.com/store/apps/details?id=vehichaul.backupparachute.com.vehichaul&hl=en";
+	   } else if (ua.indexOf("iphone") >= 0 || ua.indexOf("ipad") >= 0) {
+		   window.location="https://itunes.apple.com/US/app/id965566788"
+          }
+        });
+    </script>
+    <style type="text/css">
+
+    </style>
+    </head>
+    <body>
+		
+		<div class="secondary-bkg">
+		  <div class="feature feature-extra-small text-center">
+		    <a class="download-btn" href="https://itunes.apple.com/US/app/id965566788" target="_blank"><img src="/img/app-store-btn.png" alt="Download VehicHaul for iOS from the Apple App Store" /></a>
+
+		    <a class="download-btn" href="https://play.google.com/store/apps/details?id=vehichaul.backupparachute.com.vehichaul&hl=en" target="_blank"><img src="/img/google-play-btn.png" alt="Download VehicHaul for Android from the Google Play Store" /></a>
+		  </div>
+		</div>
+		
+    </body>
+</html>
