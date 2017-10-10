@@ -5,7 +5,6 @@
     <script src='//code.jquery.com/jquery-1.11.2.min.js'></script>
     <script>
         $(function () {
-          if (typeof MobileEsp.DetectIos !== 'undefined' && MobileEsp.DetectIos()) {
             // Add an iframe to twitter://, and then an iframe for the app store
             // link. If the first fails to redirect to the Twitter app, the
             // second will redirect to the app on the App Store. We use jQuery
@@ -27,6 +26,12 @@
     </head>
     <body>
 		
+		<center>
+		
+		<img src="/img/vh-logo-circle.png" />
+		
+		
+		
 		<div class="secondary-bkg">
 		  <div class="feature feature-extra-small text-center">
 		    <a class="download-btn" href="https://itunes.apple.com/US/app/id965566788" target="_blank"><img src="/img/app-store-btn.png" alt="Download VehicHaul for iOS from the Apple App Store" /></a>
@@ -34,6 +39,7 @@
 		    <a class="download-btn" href="https://play.google.com/store/apps/details?id=vehichaul.backupparachute.com.vehichaul&hl=en" target="_blank"><img src="/img/google-play-btn.png" alt="Download VehicHaul for Android from the Google Play Store" /></a>
 		  </div>
 		</div>
+		</center>
 		
     </body>
 </html>
