@@ -1,0 +1,43 @@
+---
+layout: default
+title: Account not found
+subtitle: Would you like to create it?
+thumbnail: contact-vh-twitter.png
+scripts:
+  - /libs/foundation-5.5.0/js/foundation/foundation.js
+  - /libs/foundation-5.5.0/js/foundation/foundation.abide.js
+  - /js/contact.js
+---
+
+<div class="row">
+  <div class="small-12 large-6 columns text-center large-text-left">
+    <h2 class="feature-subheader">Contact us today to setup your account.</h2>
+    <h3 class="">888-865-2012</h3>
+  </div>
+
+  <div class="small-12 large-6 columns">
+    <form id="contact-form" class="contact-form" data-abide="ajax">
+      <div class="input-wrapper">
+        <input type='text' name='name' required placeholder='Name' />
+        <small class="error">Your name is required and must be valid.</small>
+      </div>
+      <div class="input-wrapper">
+        <input type='text' pattern='phone' name='phone' required placeholder='Phone Number' />
+        <small class="error">Your phone number is required and must be valid.</small>
+      </div>
+      <div class="input-wrapper">
+        <input type='text' pattern='email' name='email' required placeholder='Email Address' />
+        <small class="error">Your email address is required and must be valid.</small>
+      </div>
+      <div class="input-wrapper">
+        <textarea name="description" placeholder='Question or Comment' required></textarea>
+        <small class="error">Your Question or Comment is required.</small>
+      </div>
+
+      <input id="newsletter" name="newsletter" type="checkbox" checked><label for="newsletter">Add to newsletter</label>
+
+      <button class="button" type="submit">Let's Talk</button>
+      <span class="contact-message"></span>
+    </form>
+  </div>
+</div>
