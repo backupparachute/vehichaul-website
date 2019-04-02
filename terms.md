@@ -38,7 +38,7 @@ Vehichaul has mobile ePod applications available for both iOS and Android. Seat 
 Vehichaul Mobile ePod Application allows VINs to be assigned to Drivers, track VIN locations via GPS, upload damages with photos, and electronic proof of delivery. The VehicHaul mobile ePod Application utilizes individual Driver location data collected from the mobile devices (e.g. latitude and longitude) to provide accurate pickup and delivery timestamps, location-specific meta data, and geofencing capabilities to the VehicHaul SaaS software and applicable third party systems. If you have 'background location' services turned on, the VehicHaul mobile ePod Application will, from time to time, tell VehicHaul LLC SaaS software and applicable third party systems about your device's location even if you are not directly interacting with the application. This background tracking may be disabled by turning "background location" services off. While using the VehichHaul mobile ePod Application, location data is required to be collected. VehicHaul LLC uses various technologies to determine location, including IP Address, GPS, and other sensors that may, for example, provide VehicHaul LLC with information on nearby devices, Wi-Fi access points, and cell towers.
 
 ### 1.2 Software
-Customer can access Vehichaul SaaS under a yearly subscription.
+Customer can access Vehichaul SaaS under a monthly or yearly subscription.
 
 ### 1.3 Hosting Services
 Fees for Hosting Services and Support Services are included in the Vehichaul SaaS subscription fees.
