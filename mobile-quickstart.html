@@ -48,8 +48,11 @@ section {
     background-image: url('http://vehichaul.com/img/header-bkg.jpg');
     background-size: cover;
     color: #fff;
-    height: 145px;
-    padding-bottom: 12rem;
+	
+}
+.center-align {
+	margin-top: auto;
+	margin-bottom: auto;
 }
 .nav-menu a {
 	color: #fff;
@@ -87,11 +90,11 @@ section {
 
         <!-- <img class="u-max-full-width" src="http://vehichaul.com/img/vh-logo-circle.png"> -->
             <!-- <img class="phone" src="images/iphone.png"> -->
-				  <div class="two-thirds column">
+				  <div class="two-thirds column center-align">
 				  		<h3>ePOD Mobile Quickstart</h3>
 				  </div>
 	  		    <div class="one-third column ">
-	  		            <img class="u-max-full-width" src="http://vehichaul.com/img/header-hero.png">
+	  		            <img class="" src="http://vehichaul.com/img/header-hero.png">
 	  		          </div>
 				  
           </div>
@@ -103,6 +106,7 @@ section {
   </section>
   
 	<section id="download" class="">
+		<div class="container">
 	    <div class="row u-room-more">
 	           <div class="twelve column">
 		   		<h3>Download Vehichaul ePOD from the mobile app store</h3>
@@ -114,6 +118,7 @@ section {
 	        </div>
 
 	      </div>
+		  		</div>
 		</section>
 
   <section id="features" class=" shaded-section  ">
@@ -121,8 +126,9 @@ section {
       <div class="row">
 		  <div class="two-thirds column">
  			 <h3>Register License</h3>	
-		  	<p>Enter the license and subdomain you received via email, type carefully as it must match exactly.</p>
+		  	<p>Enter the license and subdomain you received via email, type carefully as it must match exactly.  It will highlight as red if you typed it incorrectly.</p>
 		  	<p>For easier access, click the registration link in your email to login without typing.</p>
+			<p><em>Note: The license key can only be used for one install, if you re-install the app or setup a new device you MUST request a new license.</em></p>
 		  </div>
 		  <div class="one-third column">
             <img class="u-max-full-width" src="http://vehichaul.com/img/phones/vh-register-license-phone.png">
@@ -136,14 +142,15 @@ section {
   <section id="active-loads" class="">
     <div class="container">
       <div class="row">
-		  <div class="one-third column">
-            <img class="u-max-full-width" src="http://vehichaul.com/img/phones/vh-active-loads-phone.png">
-		  </div>
 		  <div class="two-thirds column">
  			 <h3>Active Loads</h3>	
 		  	<p>Conveniently manage all of your loads, and quickly see the information you need.  Use the delivered tab to see past loads.</p>
 		  	<p>Click the load to see the details.</p>
 		  </div>
+		  <div class="one-third column">
+            <img class="u-max-full-width" src="http://vehichaul.com/img/phones/vh-active-loads-phone.png">
+		  </div>
+
       </div>
     </div>
   </section>
@@ -166,13 +173,14 @@ section {
   <section id="eta" class="">
     <div class="container">
       <div class="row">
-		  <div class="one-third column">
-            <img class="u-max-full-width" src="http://vehichaul.com/img/phones/vh-eta-phone.png">
-		  </div>
 		  <div class="two-thirds column">
  			 <h3>ETA</h3>	
 		  	<p>Keep the ETA up to date for each pickup and delivery location.  The dispatchers can see the updated ETA in real time, and can be sent to the customers as well.</p>
 		  </div>
+		  <div class="one-third column">
+            <img class="u-max-full-width" src="http://vehichaul.com/img/phones/vh-eta-phone.png">
+		  </div>
+	
       </div>
     </div>
   </section>
@@ -196,13 +204,14 @@ section {
   <section id="vehicle-damages" class="">
     <div class="container">
       <div class="row">
-		  <div class="one-third column">
-            <img class="u-max-full-width" src="http://vehichaul.com/img/phones/vh-vehicle-damage-phone.png">
-		  </div>
 		  <div class="two-thirds column">
  			 <h3>Vehicle Damages</h3>	
 		  	<p>Take a photo, select damage area, type, and severity.  Comments optional.</p>
 		  </div>
+		  <div class="one-third column">
+            <img class="u-max-full-width" src="http://vehichaul.com/img/phones/vh-vehicle-damage-phone.png">
+		  </div>
+	
       </div>
     </div>
   </section>
@@ -226,13 +235,14 @@ section {
   <section id="vin-scanner" class="">
     <div class="container">
       <div class="row">
-		  <div class="one-third column">
-            <img class="u-max-full-width" src="http://vehichaul.com/img/phones/vh-vin-scanner-phone.png">
-		  </div>
 		  <div class="two-thirds column">
  			 <h3>VIN Scanner</h3>	
 		  	<p>Edit VINs or clone vehicles right in the app, either manually or by scanning the VIN barcode.</p>
 		  </div>
+		  <div class="one-third column">
+            <img class="u-max-full-width" src="http://vehichaul.com/img/phones/vh-vin-scanner-phone.png">
+		  </div>
+		
       </div>
     </div>
   </section>
@@ -256,10 +266,10 @@ section {
   <footer>
     <div class="container">
     	<div class="row">
-        	<div class="one-third column">
+        	<div class="one-half column">
 			  <span class="copyright">powered by <a href="http://vehichaul.com">Vehichaul</a>&nbsp;</span>
 	  	  </div>
-        	<div class="one-third column">
+        	<div class="one-half column">
 			  <span class="copyright">&copy; 2019 Vehichaul LLC</span>
 	  	  </div>
 		  
