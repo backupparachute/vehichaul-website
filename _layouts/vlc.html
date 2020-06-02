@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>VINlocity Carrier {% if page.title %}: {{ page.title }}{% endif %}</title>
+    <script src='//code.jquery.com/jquery-1.11.2.min.js'></script>
+    <script>
+        $(function () {
+            // Add an iframe to twitter://, and then an iframe for the app store
+            // link. If the first fails to redirect to the Twitter app, the
+            // second will redirect to the app on the App Store. We use jQuery
+            // to add this after the document is fully loaded, so if the user
+            // comes back to the browser, they see the content they expect.
+            // $('body').append('<iframe class="twitter-detect" src="twitter://" />')
+       //        .append('<iframe class="twitter-detect" src="itms-apps://itunes.com/apps/twitter" />');
+	   var ua = navigator.userAgent.toLowerCase();
+	   if (ua.indexOf("android") >= 0) {
+	   	window.location = "https://play.google.com/store/apps/details?id=com.backupparachute.vinlocity.carrier";
+	   } else if (ua.indexOf("iphone") >= 0 || ua.indexOf("ipad") >= 0) {
+		   window.location="https://apps.apple.com/us/app/id1486653323"
+          }
+        });
+    </script>
+    <link rel="stylesheet" href="http://vehichaul.com/templates/skeleton/css/normalize.css">
+    <link rel="stylesheet" href="http://vehichaul.com/templates/skeleton/css/skeleton.css">
+    <link rel="stylesheet" href="http://vehichaul.com/templates/skeleton/css/vh-custom.css">
+
+    <style type="text/css">
+		body {
+		   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+		   font-weight: 300;
+		}
+		h3 { margin: 1em;}
+    </style>
+    </head>
+    <body>
+
+		<center>
+
+		<img src="/img/cdn/acertus/vinlocity/vlc-logo-dark-med.png" style="width:80%;min-width:200px;"/>
+
+    {{ content }}
+
+		</center>
+
+    </body>
+</html>
