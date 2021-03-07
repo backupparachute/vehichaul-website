@@ -37,4 +37,4 @@ IoT can also be used to monitor both people and equipment, enhancing worker safe
 
 The Internet of Things isn’t a far-off sci-fi concept. In fact, the integration of IoT technologies into logistics operations is already underway. This increased connectivity provides valuable data and monitoring that can help logistics companies operate more efficiently, eliminate wasteful spending, and optimize usage of fleet vehicles.
 
-VehicleHaul can help you make the future your present-day reality. Our app can optimize your logistic network without charging per VIN. If you want to learn more, don’t hesitate to [Contact us](http://www.vehichaul.com/contact "Contact Us") at 1-888-865-2012 or visit [VehicHaul.com](http://www.vehichaul.com/ "VehicHaul").
+VehicleHaul can help you make the future your present-day reality. Our app can optimize your logistic network without charging per VIN. If you want to learn more, don’t hesitate to [Contact us](http://www.vehichaul.com/contact "Contact Us") at 1-844-846-7447 or visit [VehicHaul.com](http://www.vehichaul.com/ "VehicHaul").

@@ -17,4 +17,4 @@ You will inevitably become the shipper of choice when you offer your drivers mob
 
 With the VehicHaul mobile app, you can monitor locations, enter data to communicate with drivers and clients and enhance communication while on the go. 
 
-Are you ready to become the shipper of choice? Find out more about a vehicle ePOD solution. [Contact us](http://www.vehichaul.com/contact "Contact Us") at 1-888-865-2012 or visit [VehicHaul.com](http://www.vehichaul.com/ "VehicHaul").
+Are you ready to become the shipper of choice? Find out more about a vehicle ePOD solution. [Contact us](http://www.vehichaul.com/contact "Contact Us") at 1-844-846-7447 or visit [VehicHaul.com](http://www.vehichaul.com/ "VehicHaul").

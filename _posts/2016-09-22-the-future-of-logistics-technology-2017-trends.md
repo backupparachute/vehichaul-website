@@ -35,4 +35,4 @@ Moreover, a mobile solution, such as VehicHaul can help you streamline shipments
 
 **VehicleHaul is currently doing R&D with J1939 adapters and determining the feasibility of starting an ELD pilot program.** [Are you ready to become part of the future?](http://www.vehichaul.com/contact "ELD starter program")
 
-VehicleHaul can help you make the future your present-day reality. Our app can optimize your logistic network without charging per VIN. If you want to learn more, don’t hesitate to [Contact us](http://www.vehichaul.com/contact "Contact Us") at 1-888-865-2012 or visit [VehicHaul.com](http://www.vehichaul.com/ "VehicHaul").
+VehicleHaul can help you make the future your present-day reality. Our app can optimize your logistic network without charging per VIN. If you want to learn more, don’t hesitate to [Contact us](http://www.vehichaul.com/contact "Contact Us") at 1-844-846-7447 or visit [VehicHaul.com](http://www.vehichaul.com/ "VehicHaul").

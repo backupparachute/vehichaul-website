@@ -38,4 +38,4 @@ Truly autonomous driverless trucks are a ways off, despite what some futurists m
 
 Someday, trucks might drive themselves. But today, there’s more of a need than ever for experienced commercial truck drivers to move important shipments from point A to point B. If you’re a trucker, a robot isn’t going to take your job any time soon.
 
-VehicleHaul can help you make the future your present-day reality. Our app can optimize your logistic network without charging per VIN. If you want to learn more, don’t hesitate to [Contact us](http://www.vehichaul.com/contact "Contact Us") at 1-888-865-2012 or visit [VehicHaul.com](http://www.vehichaul.com/ "VehicHaul").
+VehicleHaul can help you make the future your present-day reality. Our app can optimize your logistic network without charging per VIN. If you want to learn more, don’t hesitate to [Contact us](http://www.vehichaul.com/contact "Contact Us") at 1-844-846-7447 or visit [VehicHaul.com](http://www.vehichaul.com/ "VehicHaul").
